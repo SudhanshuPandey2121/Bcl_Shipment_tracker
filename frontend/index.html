@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shipment Tracker</title>
+</head>
+<body>
+
+<h2>Create Shipment</h2>
+<input id="createId" placeholder="Shipment ID">
+<input id="createLoc" placeholder="Location">
+<button onclick="createShipment()">Create</button>
+
+<h2>Update Location</h2>
+<input id="updateId" placeholder="Shipment ID">
+<input id="updateLoc" placeholder="New Location">
+<button onclick="updateLocation()">Update</button>
+
+<h2>Track Shipment</h2>
+<input id="trackId" placeholder="Shipment ID">
+<button onclick="getHistory()">Track</button>
+
+<ul id="result"></ul>
+
+<script src="app.js"></script>
+</body>
+</html>
